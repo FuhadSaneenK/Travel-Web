@@ -1,0 +1,105 @@
+
+body {
+    /* ... other styles */
+    background-image: url(pexels-engin-akyurt-143575.jpg); /* Replace with the URL of your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+ .container {
+    display: flex; /* Allow elements inside to arrange horizontally */
+    border: 2px solid #ccc; /* Add a solid border with light gray color */
+    width: fit-content; /* Set width to fit the content */
+    margin: 50px auto;
+    /* Add top and bottom margin (auto centers horizontally) */
+    padding: 30px; /* Add padding for spacing inside the div */
+    border-radius: 5px; /* Add rounded corners */
+    background-color:transparent(255, 255, 255, 0.8); /* Set semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.3);  /* Add subtle shadow */;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 80px;
+} 
+
+.login-form form { 
+    text-align: left; /* Aligns all text elements within the form to the left */
+}
+
+.login-form label {  
+    text-align: left; 
+}
+
+/* ... (Your existing CSS styles) ... */
+
+.login-form h1 {
+    text-align: center; /* Centers the text content of the <h1> element */
+    font-family: Lobster, cursive;
+}
+/* styles.css */
+
+
+/* Additional styles for specific elements inside the login div can be added here */
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #15f7b7; /* Adjust button color as needed */
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top:23px ;
+}
+
+
+.forgot-password-link {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none; /* Remove default underline */
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.no-account {
+    text-align: center; /* Centers the "Don't have an account?" text */
+    margin-top: 20px; /* Adjust spacing above the text as needed */
+}
+
+.no-account span {
+    margin-right: 5px; /* Adds a small space between the text and the link */
+}
+
+.no-account a {
+    color: black; /* Adjust link color as needed */
+    text-decoration: none; /* Removes underline from the link */
+}
+
+.no-account a:hover {
+    text-decoration: underline; /* Applies underline on hover */
+}
+
+

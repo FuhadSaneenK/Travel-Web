@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lacquer&display=swap');
+
+
+*{
+    font-family: "Poppins";
+}
+
+.click_trip{
+    /* background-color: blue; */
+    width: fit-content;
+    position: relative;
+    top: 60px;
+    color: black;
+    font-family: Dancing Script;
+    margin-left: 35%;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.card-out{
+    
+    border: 2px solid #333;
+    height: 300px;
+    width: 20%;
+    border-radius: 4%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    padding: 20px;
+    margin: 50px;
+    background-color: black;
+    
+    
+    
+}
+.text{
+    color: aliceblue;
+    font-family: Lacquer;
+}
+
+.delhi-card img{
+    
+    width: 100%;
+    border-radius: 4%;
+     
+}
+
+.kashmir-card img{
+    
+    width: 100%;
+    border-radius: 4%;
+    
+}
+
+.jaipur-card img{
+    
+    width: 100%;
+    
+    border-radius: 4%;
+    
+}
+
+.container{
+    /* background-color: yellow; */
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    width: fit-content;
+   
+}
+
+.letter{
+    color: aquamarine;
+}
+
+
+.menubar_container{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    justify-content:right;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(12, 159, 175, 0.828);
+    width: 100%;
+    margin: 5px;
+    border-radius: 3px;
+    
+    
+}
+.menubar{
+    
+    width:fit-content ;
+    margin-right: 20px;
+    gap: 2rem;
+    display: flex;
+    font-family: "Poppins";
+    
+}
+.menubar i{
+    color: black;
+    margin-right: 5px;
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+
+}
+
+
+.active{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    top: 12px;
+
+
+}
+.material-symbols-outlined{
+    position: relative;
+    top: 12px;
+}
+
+.menubar a, .book_now {
+    display: inline-block;
+    margin-right: 1px; /* Adjust this value as needed */
+}
+.menubar span.material-symbols-outlined {
+    margin-right: 1px; /* Adjust this value as needed */
+}
+
